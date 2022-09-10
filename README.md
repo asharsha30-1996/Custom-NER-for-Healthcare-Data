@@ -26,9 +26,9 @@ A similar step is to be performed for the 'train_label' and 'test_label' dataset
  
 You need to do the following three tasks after processing and modifying the datasets:
 
- 1.Construct proper sentences from individual words and print five sentences along with their labels.
- 2.Print the correct count of the number of sentences in the processed train and test dataset.
- 3.Correctly count the number of lines of labels in the processed train and test dataset.
+ 1. Construct proper sentences from individual words and print five sentences along with their labels.
+ 2. Print the correct count of the number of sentences in the processed train and test dataset.
+ 3. Correctly count the number of lines of labels in the processed train and test dataset.
  
 
 # Concept identification: 
@@ -41,9 +41,9 @@ You need to do the following three tasks after processing and modifying the data
 
 # Defining the features for CRF: 
    Here, you need to perform the following three steps:
-    1. Define the features with the PoS tag as one of the features.
-    2. While defining the features in which you have used the PoS tags, you also need to consider the preceding word of the current word. The use of the information        of the preceding word makes the CRF model more accurate and exhaustive.
-    3. Mark the beginning and the end words of a sentence correctly in the form of features.
+    1.  Define the features with the PoS tag as one of the features.
+    2.  While defining the features in which you have used the PoS tags, you also need to consider the preceding word of the current word. The use of the                   information of the preceding word makes the CRF model more accurate and exhaustive.
+    3.  Mark the beginning and the end words of a sentence correctly in the form of features.
  
 
 #  Getting the features and the labels of sentences: 
