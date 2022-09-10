@@ -73,7 +73,8 @@ In this step, you need to perform the following two tasks:
 
 # Identifying the diseases and treatment using a custom NER: 
 
-     1. Create the code or logic to get all the predicted treatments (T) labels corresponding to each disease (D) label in the test dataset. You can refer to the            following image to get an idea on how to create a dictionary where diseases are working as keys and treatments are working as values.
+     1. Create the code or logic to get all the predicted treatments (T) labels corresponding to each disease (D) label in the test dataset.
+        You can refer to the following image to get an idea on how to create a dictionary where diseases are working as keys and treatments are working as values.
      
  ![image](https://user-images.githubusercontent.com/104059964/189471684-62ed73b2-2176-438e-9cf5-a8631a09caa4.png)
 
