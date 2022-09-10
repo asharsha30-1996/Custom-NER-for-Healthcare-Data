@@ -38,7 +38,7 @@ You need to do the following three tasks after processing and modifying the data
        An important point to note here is that we are using both test and train sentences for concept identification. This is an exploratory analysis on the                complete data. In this step, you need to perform the following two tasks by considering the train and the test dataset as a single unit of data:
 
           1. Use a toolkit like spaCy to extract those tokens that have NOUN or PROPN as their PoS tag and find their frequency from the entire dataset that                      comprises both the train and the test datasets.
-         2.  Print the top 25 most common tokens with NOUN or PROPN PoS tags for the entire dataset that comprises both the train and the test datasets.
+          2. Print the top 25 most common tokens with NOUN or PROPN PoS tags for the entire dataset that comprises both the train and the test datasets.
 
 # Defining the features for CRF: 
    Here, you need to perform the following three steps:
